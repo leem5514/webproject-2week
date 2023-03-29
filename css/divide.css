@@ -1,0 +1,121 @@
+
+body {
+    background-image: linear-gradient(90deg, #131230, #744F5E);
+    background-size: cover;
+}
+.general {
+    text-align: center;
+    width: 500px;
+    height: 900px;
+    float : left;
+	margin-top: 50px;
+    margin-left : 200px;
+	background-color: #d9d9d9;
+    border-radius: 30%;
+    opacity: 0.5;
+}
+.general > .general-txt {
+    padding-top: 50px;
+    color : black;
+    font-size : 70px;
+    font-style: bold;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+
+}
+.general > .general-img {
+    margin-top : 20px; 
+    width: 170px;
+    height: 250px;
+}
+
+.general > .btn_general {
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 150px;
+    height: 60px;
+}
+
+.general > .btn_general > button {
+    border-radius: 40%;
+    width: 200px;
+    height: 100px;
+    background-color: #eee;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 1px 4px 0 rgb(0,0,0,0.5);
+
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 300px;
+    font-size: 40px;
+    color: black;
+}
+  
+.general > .btn_general > button:active {
+    box-shadow: 1px 1px 0 rgb(0,0,0,0.5);
+    position: relative;
+    top:2px;
+}
+  
+.general > .btn_general > button:hover {
+    background-color: #ffa9a9;
+}
+
+
+
+
+
+.conven {
+    text-align: center;
+    width: 500px;
+    height: 900px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+	background-color: #d9d9d9;
+    border-radius: 30%;
+    opacity: 0.5;
+    font-style: bold;
+}
+
+.conven > .convenience-txt {
+    padding-top: 50px;
+    color : black;
+    font-size : 70px;
+    font-style: bold;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+
+}
+.conven > .convenience-img {
+    width: 170px;
+    height: 250px;
+}
+.conven > .btn_convenience {
+    margin-top: 30px;
+    margin-left: 150px;
+    width: 150px;
+    height: 60px;
+}
+.conven > .btn_convenience > button {
+    border-radius: 40%;
+    width: 200px;
+    height: 100px;
+    background-color: #eee;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 1px 4px 0 rgb(0,0,0,0.5);
+
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 300px;
+    font-size: 40px;
+    color: black;
+}
+  
+.conven > .btn_convenience > button:active {
+    box-shadow: 1px 1px 0 rgb(0,0,0,0.5);
+    position: relative;
+    top:2px;
+}
+  
+.conven > .btn_convenience > button:hover {
+    background-color: #ffa9a9;
+}

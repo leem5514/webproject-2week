@@ -1,0 +1,134 @@
+body {
+    background-image: linear-gradient(90deg, #131230, #744F5E);
+    background-size: cover;
+}
+.main{
+    text-align: center;
+}
+.btnhome {
+    text-align: left;
+    float: left;
+}
+.btnhome > .btn_home {
+
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: #eee; /*배경색*/
+
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+    transition: background-color 0.3s ease;
+    /*글자 구성*/
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+}
+.btn_home:hover {
+    background-color: #FFB6C1;
+}
+
+
+.btnbackspace{
+    text-align:left;
+}
+.btnbackspace > .btn_backspace {
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    background-color: #eee; /*배경색*/
+
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+    transition: background-color 0.3s ease;
+
+    /*글자 구성*/
+    font-weight: bolder;
+    font-size: 20px;
+    color: black;
+}
+.btn_backspace:hover {
+    background-color: #FFB6C1;
+}
+
+
+.txtstore {
+    margin-top: -50px;
+    font-size: 100px;
+    font-weight: bold;
+    color: #eee;
+}
+
+hr {
+    margin-top: -25px;
+    width : 75%;
+    height : 10px;
+    background-color: #eee;
+}
+
+
+
+.search {
+    position: relative;
+    top: 40px;
+}
+.search > .btn_kind {
+    position: relative;
+    left:-400px;
+    font-size: 35px;
+    color: #eee;
+}
+
+.search > .search-box {
+
+    position: relative;
+    left: 240px;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 1000px;
+    background-color: #FFE4E1;
+    border-radius: 25px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.search-box input[type="text"] {
+    height: 100%;
+    width: 120%;
+    border: none;
+    background-color: transparent;
+    padding-left: 10px;
+    font-size: 16px;
+    outline: none;
+}
+  
+.button[type="submit"] {
+    height: 100%;
+    width: 20%;
+    border: none;
+    background-color: #FFB6C1;
+    color: white;
+    font-size: 16px;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+}
+
+  
+
+.btn_list {
+    position: relative;
+    left:-400px;
+    font-size: 35px;
+    color: #eee;
+}
+
+
+
+
+
+
+
+
